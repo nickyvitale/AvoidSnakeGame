@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Avoid the Snake</title>
+        <style>
+            body{
+                background: black;
+                color: white;
+                text-align: center;
+            }
+            #red{
+                color: red;
+            }
+            #lime{
+                color: lime;
+            }
+            #gold{
+                color: gold;
+            }
+            #black{
+                color: grey;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header><h1>Avoid the Snake</h1></header>
+        <p>In this game, there are two players: the protagonist and the snake. <br>
+        The protagonist's goal is to reach a score of 25 before being killed by the snake, while the <br>
+        snake's wishes to kill the protagonist before they reach that objective. <br> <br> <br>
+        In order to collect points, the protagonist must eat apples. However, the snake can also
+        eat apples. <br> Depending on which type of apple is eaten and by which player, an additional
+        <br> effect is achieved each time one is eaten. <br> <br> <br>
+        <b id = "red">Red</b> apples add one to the score when eaten by the protagonist, and add one unit to the snake if eaten by the snake.
+        <br> <b id = 'white'>Life</b> apples increment the score by one and give the player an extra life if consumed by the player, while growing the snake if consumed by the snake.
+        <br> <b id = "lime">Lime</b> apples add 5 to the score when eaten by the protagonist, and subtracts one from the score while still growing the snake when eaten by the snake.
+        <br> <b id = "gold">Golden</b> apples add 3 to the score and shrink the snake back down to it's original size when eaten by the protagonist,<br>
+        and grow the snake by two units when eaten by the snake.<br>
+        <b id = "black">Death</b> apples are extremely rare black apples that ensure victory for the consumer, setting the score to 100 if eaten by the protagonist <br>
+        and setting the score to 0 and teleporting the protagonist into the snake's clutches if eaten by the snake. <br><br><br>
+        The protagonist uses the arrow pad to move, while the snake uses WASD to move and cannot change direction directly 180 degrees from it's current trajectory.<br></p>
+        <button onclick="location.href='snake.html'" type="button">Click to begin</button>
+    </body>
+</html>
